@@ -1,0 +1,317 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "start_game",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def start_game():\n    print(\"Welcome to the Adventure Game!\")\n    print(\"You find yourself in a dark forest. There are two paths ahead.\")\n    print(\"1. Take the left path.\")\n    print(\"2. Take the right path.\")\n    print(\"3. Look around.\")\n    choice = input(\"Which action will you take? (1/2/3): \")\n    if choice == \"1\":\n        left_path()\n    elif choice == \"2\":",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "start_game",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def start_game():\n    print(\"Welcome to the Adventure Game!\")\n    print(\"You find yourself in a dark forest. There are two paths ahead.\")\n    print(\"1. Take the left path.\")\n    print(\"2. Take the right path.\")\n    print(\"3. Look around.\")\n    choice = input(\"Which action will you take? (1/2/3): \")\n    if choice == \"1\":\n        left_path()\n    elif choice == \"2\":",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "left_path",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def left_path():\n    print(\"\\nYou take the left path and walk for a while. The forest is dense, and the air is thick with mist.\")\n    print(\"1. Continue walking forward.\")\n    print(\"2. Stop and listen to your surroundings.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        print(\"\\nYou continue walking forward, but the mist grows thicker.\")\n        print(\"Suddenly, you stumble upon an old, abandoned cabin.\")\n        print(\"1. Enter the cabin.\")\n        print(\"2. Walk around the cabin.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "enter_cabin",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def enter_cabin():\n    print(\"\\nYou cautiously enter the cabin. The air inside is cold and stale.\")\n    print(\"You see a dusty table with an old, tattered book on it.\")\n    print(\"1. Read the book.\")\n    print(\"2. Leave the cabin.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        read_book()\n    elif choice == \"2\":\n        print(\"\\nYou leave the cabin and continue your journey on the path.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "read_book",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def read_book():\n    print(\"\\nYou open the book and begin to read. The pages are filled with strange symbols and illustrations.\")\n    print(\"Suddenly, you feel a cold breeze, and the symbols start glowing.\")\n    print(\"1. Continue reading.\")\n    print(\"2. Close the book and leave the cabin.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        print(\"\\nAs you continue reading, the symbols lift off the page and swirl around you.\")\n        print(\"You feel a surge of energy as the book's magic infuses you.\")\n        print(\"You have gained a new magical ability!\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "walk_around_cabin",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def walk_around_cabin():\n    print(\"\\nYou walk around the cabin and find an old well behind it.\")\n    print(\"The well is covered in moss, and a faint glow emanates from within.\")\n    print(\"1. Look inside the well.\")\n    print(\"2. Ignore the well and return to the path.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        look_inside_well()\n    elif choice == \"2\":\n        print(\"\\nYou ignore the well and return to the path.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "look_inside_well",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def look_inside_well():\n    print(\"\\nYou peer into the well and see something shimmering at the bottom.\")\n    print(\"1. Climb down the well.\")\n    print(\"2. Throw a rock into the well.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        climb_down_well()\n    elif choice == \"2\":\n        print(\"\\nYou throw a rock into the well. The rock hits the bottom with a splash, but nothing else happens.\")\n        left_path()",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "climb_down_well",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def climb_down_well():\n    print(\"\\nYou carefully climb down the well, using the old, slippery stones as handholds.\")\n    print(\"At the bottom, you find a glowing crystal embedded in the wall.\")\n    print(\"1. Take the crystal.\")\n    print(\"2. Leave the crystal and climb back up.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        print(\"\\nYou take the crystal, and as you do, the well begins to shake.\")\n        print(\"You quickly climb back up and escape just as the well collapses.\")\n        print(\"You have gained a mysterious glowing crystal!\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "investigate_bushes",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def investigate_bushes():\n    print(\"\\nYou approach the bushes cautiously and see a small creature scurrying away.\")\n    print(\"1. Chase after the creature.\")\n    print(\"2. Return to the path.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        chase_creature()\n    elif choice == \"2\":\n        print(\"\\nYou decide not to pursue the creature and return to the path.\")\n        left_path()",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "chase_creature",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def chase_creature():\n    print(\"\\nYou chase after the creature and follow it into a hidden clearing.\")\n    print(\"In the clearing, you find an ancient stone altar with strange markings.\")\n    print(\"1. Investigate the altar.\")\n    print(\"2. Leave the clearing and return to the path.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        investigate_altar()\n    elif choice == \"2\":\n        print(\"\\nYou decide to leave the clearing and return to the path.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "investigate_altar",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def investigate_altar():\n    print(\"\\nYou approach the altar and notice that one of the markings resembles a handprint.\")\n    print(\"1. Place your hand on the handprint.\")\n    print(\"2. Step back and observe.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        place_hand_on_altar()\n    elif choice == \"2\":\n        print(\"\\nYou decide to observe the altar from a distance, but nothing happens.\")\n        left_path()",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "place_hand_on_altar",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def place_hand_on_altar():\n    print(\"\\nYou place your hand on the handprint, and the markings on the altar begin to glow.\")\n    print(\"A portal opens up in front of you, leading to an unknown realm.\")\n    print(\"1. Step through the portal.\")\n    print(\"2. Step back and close the portal.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        enter_portal()\n    elif choice == \"2\":\n        print(\"\\nYou step back, and the portal closes, leaving you in the clearing.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "enter_portal",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def enter_portal():\n    print(\"\\nYou step through the portal and find yourself in a mysterious, glowing cave filled with ancient treasures.\")\n    print(\"You have discovered a hidden realm with endless possibilities!\")\ndef continue_on_path():\n    print(\"\\nYou decide to continue walking along the path, leaving the rustling bushes behind.\")\n    print(\"The mist starts to clear, and you find yourself in a serene, sunlit grove.\")\n    print(\"In the center of the grove, there is a large, ancient tree with golden leaves.\")\n    print(\"1. Approach the tree.\")\n    print(\"2. Sit down and rest by the tree.\")\n    print(\"3. Explore the grove.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "continue_on_path",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def continue_on_path():\n    print(\"\\nYou decide to continue walking along the path, leaving the rustling bushes behind.\")\n    print(\"The mist starts to clear, and you find yourself in a serene, sunlit grove.\")\n    print(\"In the center of the grove, there is a large, ancient tree with golden leaves.\")\n    print(\"1. Approach the tree.\")\n    print(\"2. Sit down and rest by the tree.\")\n    print(\"3. Explore the grove.\")\n    choice = input(\"What will you do? (1/2/3): \")\n    if choice == \"1\":\n        approach_tree()",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "approach_tree",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def approach_tree():\n    print(\"\\nYou walk up to the ancient tree and notice that the bark is covered in strange, glowing runes.\")\n    print(\"The tree seems to hum with energy, and you feel a strong connection to it.\")\n    print(\"1. Touch the tree.\")\n    print(\"2. Step back and observe the tree.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        print(\"\\nAs you touch the tree, a warm energy flows through you.\")\n        print(\"You feel your strength and vitality increase. The tree has blessed you with its ancient power!\")\n        # The player gains a permanent stat boost or ability.",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "rest_by_tree",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def rest_by_tree():\n    print(\"\\nYou sit down and rest by the tree, feeling a deep sense of peace and calm.\")\n    print(\"As you relax, you hear the gentle rustling of the leaves and feel a refreshing breeze.\")\n    print(\"You fall into a deep, restorative sleep and wake up feeling rejuvenated.\")\n    print(\"Your health and energy are fully restored!\")\n    # The player recovers health and energy, allowing for continued exploration.\ndef explore_grove():\n    print(\"\\nYou decide to explore the grove further and discover a hidden pond behind the ancient tree.\")\n    print(\"The water in the pond is crystal clear, and you can see your reflection perfectly.\")\n    print(\"1. Drink from the pond.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "explore_grove",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def explore_grove():\n    print(\"\\nYou decide to explore the grove further and discover a hidden pond behind the ancient tree.\")\n    print(\"The water in the pond is crystal clear, and you can see your reflection perfectly.\")\n    print(\"1. Drink from the pond.\")\n    print(\"2. Throw a stone into the pond.\")\n    choice = input(\"What will you do? (1/2): \")\n    if choice == \"1\":\n        print(\"\\nYou drink from the pond and feel a surge of energy flow through your body.\")\n        print(\"The water has magical properties, and you feel stronger and more alert.\")\n        # The player gains a temporary boost to strength or alertness.",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "right_path",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def right_path():\n    print(\"\\nYou chose to take the right path. The forest seems darker here.\")\n    print(\"As you walk further, the trees become denser, and you start to hear strange noises.\")\n    print(\"1. Continue walking cautiously.\")\n    print(\"2. Try to find the source of the noises.\")\n    print(\"3. Turn back to the starting point.\")\n    choice = input(\"What will you do? (1/2/3): \")\n    if choice == \"1\":\n        print(\"\\nYou decide to continue walking cautiously. The path gets narrower, and the noises grow louder.\")\n        print(\"Suddenly, you stumble upon a hidden cave entrance, covered by thick vines.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "look_around",
+        "kind": 2,
+        "importPath": "Adventure Game.adventuregame",
+        "description": "Adventure Game.adventuregame",
+        "peekOfCode": "def look_around():\n    print(\"\\nYou decide to look around before choosing a path.\")\n    print(\"The forest is quiet, with only the sound of rustling leaves.\")\n    print(\"As you examine your surroundings, you notice a few interesting things:\")\n    print(\"1. A strange marking on a nearby tree.\")\n    print(\"2. A glint of something shiny partially buried in the ground.\")\n    print(\"3. A faint trail of smoke rising in the distance.\")\n    choice = input(\"Which one will you investigate? (1/2/3): \")\n    if choice == \"1\":\n        print(\"\\nYou walk over to the tree with the strange marking.\")",
+        "detail": "Adventure Game.adventuregame",
+        "documentation": {}
+    },
+    {
+        "label": "validatorFn",
+        "kind": 2,
+        "importPath": "Calculator.calculator",
+        "description": "Calculator.calculator",
+        "peekOfCode": "def validatorFn():\n  while True:\n    operator = input(\"Enter an operator (+ - * /): \")\n    if operator in [\"+\",\"-\",\"*\",\"/\"]:\n      break\n    else:\n      print(\"Put the Valid operators\\n\")\n  while True:\n    try:\n      num1 = float(input(\"Enter the First number: \"))",
+        "detail": "Calculator.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "Calculation",
+        "kind": 2,
+        "importPath": "Calculator.calculator",
+        "description": "Calculator.calculator",
+        "peekOfCode": "def Calculation(operator, num1, num2):\n  if operator == \"+\":\n    result = num1 + num2\n    print(result)\n  elif operator == \"-\":\n    result = num1 - num2\n    print(result)\n  elif operator == \"*\":\n    result = num1 * num2\n    print(result)",
+        "detail": "Calculator.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Calculator.calculator",
+        "description": "Calculator.calculator",
+        "peekOfCode": "def main():\n  operator, num1, num2 = validatorFn()\n  result = Calculation(operator, num1, num2)\n  if result is not None:\n    print(\"result: \",result)\nif __name__ == \"__main__\":\n  main()",
+        "detail": "Calculator.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "email",
+        "kind": 5,
+        "importPath": "Email Slicer.emailSlicer",
+        "description": "Email Slicer.emailSlicer",
+        "peekOfCode": "email = input(\"Enter Your Email: \")\nindex = email.index(\"@\")\nusername = email[:index]\ndomain = email[index + 1:]\nprint(f\"Your username is {username} and domain is {domain}\")",
+        "detail": "Email Slicer.emailSlicer",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "Email Slicer.emailSlicer",
+        "description": "Email Slicer.emailSlicer",
+        "peekOfCode": "index = email.index(\"@\")\nusername = email[:index]\ndomain = email[index + 1:]\nprint(f\"Your username is {username} and domain is {domain}\")",
+        "detail": "Email Slicer.emailSlicer",
+        "documentation": {}
+    },
+    {
+        "label": "username",
+        "kind": 5,
+        "importPath": "Email Slicer.emailSlicer",
+        "description": "Email Slicer.emailSlicer",
+        "peekOfCode": "username = email[:index]\ndomain = email[index + 1:]\nprint(f\"Your username is {username} and domain is {domain}\")",
+        "detail": "Email Slicer.emailSlicer",
+        "documentation": {}
+    },
+    {
+        "label": "domain",
+        "kind": 5,
+        "importPath": "Email Slicer.emailSlicer",
+        "description": "Email Slicer.emailSlicer",
+        "peekOfCode": "domain = email[index + 1:]\nprint(f\"Your username is {username} and domain is {domain}\")",
+        "detail": "Email Slicer.emailSlicer",
+        "documentation": {}
+    },
+    {
+        "label": "startGame",
+        "kind": 2,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "def startGame():\n  readyToPlay = input(\"Are you ready to play (Y/N)\")\n  if readyToPlay.upper() == \"Y\":\n    while True:\n      try:\n        print(\"-\"*40)\n        print(\"You have Total 1 minute Time to Complete the quiz\")\n        print(\"-\"*40)\n        questionLengthPick = int(input(\"How many Question Do you want? \"))\n        print(f\"you choose {questionLengthPick} Questions to Play\\n\")",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "QuestionLoad",
+        "kind": 2,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "def QuestionLoad(questions,questionLengthPick):\n    try:\n      Index = 0\n      correctAns=0\n      totalQuestions = len(questions)\n      startTime = time.time()\n      for Index in range(questionLengthPick):\n        currentQuestionLength = Index % totalQuestions\n        question = questions[currentQuestionLength]\n        print(f\"Question {1+ Index}: {question['question']} \")",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "userAnswers",
+        "kind": 5,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "userAnswers = []\ncorrectAnswers = []\nquestions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "correctAnswers",
+        "kind": 5,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "correctAnswers = []\nquestions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",\n        \"options\": [ \"Mitsuri\", \"Shinobu\", \"Kanao\",\"Nezuko\"],",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "questions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",\n        \"options\": [ \"Mitsuri\", \"Shinobu\", \"Kanao\",\"Nezuko\"],\n        \"answer\": \"Nezuko\"",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "questionLengthPick",
+        "kind": 5,
+        "importPath": "Quiz App.quiz",
+        "description": "Quiz App.quiz",
+        "peekOfCode": "questionLengthPick = startGame()\nif questionLengthPick is not None:\n  QuestionLoad(questions,questionLengthPick)\nelse:\n  print(\"Quiz Game stopped! Goodbye\")\nprint(\"=\"*40)",
+        "detail": "Quiz App.quiz",
+        "documentation": {}
+    },
+    {
+        "label": "foods",
+        "kind": 5,
+        "importPath": "shopping cart.shopping",
+        "description": "shopping cart.shopping",
+        "peekOfCode": "foods = []\nprizes = []\ntotal= 0\nwhile True:\n  food = input(\"Enter the Food Item (Press q to exit): \")\n  if food.lower() == \"q\":\n    break\n  else:\n    try:\n      prize = int(input(\"Enter the Prize Money: $\"))",
+        "detail": "shopping cart.shopping",
+        "documentation": {}
+    },
+    {
+        "label": "prizes",
+        "kind": 5,
+        "importPath": "shopping cart.shopping",
+        "description": "shopping cart.shopping",
+        "peekOfCode": "prizes = []\ntotal= 0\nwhile True:\n  food = input(\"Enter the Food Item (Press q to exit): \")\n  if food.lower() == \"q\":\n    break\n  else:\n    try:\n      prize = int(input(\"Enter the Prize Money: $\"))\n      foods.append(food)",
+        "detail": "shopping cart.shopping",
+        "documentation": {}
+    }
+]

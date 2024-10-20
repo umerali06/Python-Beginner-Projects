@@ -1,0 +1,65 @@
+[
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "startGame",
+        "kind": 2,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "def startGame():\n  readyToPlay = input(\"Are you ready to play (Y/N)\")\n  if readyToPlay.upper() == \"Y\":\n    while True:\n      try:\n        print(\"-\"*40)\n        print(\"You have Total 1 minute Time to Complete the quiz\")\n        print(\"-\"*40)\n        questionLengthPick = int(input(\"How many Question Do you want? \"))\n        print(f\"you choose {questionLengthPick} Questions to Play\\n\")",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "QuestionLoad",
+        "kind": 2,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "def QuestionLoad(questions,questionLengthPick):\n    try:\n      Index = 0\n      correctAns=0\n      totalQuestions = len(questions)\n      startTime = time.time()\n      for Index in range(questionLengthPick):\n        currentQuestionLength = Index % totalQuestions\n        question = questions[currentQuestionLength]\n        print(f\"Question {1+ Index}: {question['question']} \")",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "userAnswers",
+        "kind": 5,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "userAnswers = []\ncorrectAnswers = []\nquestions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "correctAnswers",
+        "kind": 5,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "correctAnswers = []\nquestions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",\n        \"options\": [ \"Mitsuri\", \"Shinobu\", \"Kanao\",\"Nezuko\"],",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "questions",
+        "kind": 5,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "questions = [\n    {\n        \"question\": \"Who was Naruto's first teacher at the Ninja Academy?\",\n        \"options\": [ \"Kakashi Hatake\", \"Jiraiya\",\"Iruka Umino\", \"Tsunade\"],\n        \"answer\": \"Iruka Umino\"\n    },\n    {\n        \"question\": \"What is the name of Tanjiro Kamado's sister?\",\n        \"options\": [ \"Mitsuri\", \"Shinobu\", \"Kanao\",\"Nezuko\"],\n        \"answer\": \"Nezuko\"",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "questionLengthPick",
+        "kind": 5,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "questionLengthPick = startGame()\nif questionLengthPick is not None:\n  QuestionLoad(questions,questionLengthPick)\nelse:\n  print(\"Quiz Game stopped! Goodbye\")\nprint(\"=\"*40)",
+        "detail": "quiz",
+        "documentation": {}
+    }
+]
