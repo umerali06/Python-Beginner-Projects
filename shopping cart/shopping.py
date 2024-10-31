@@ -23,4 +23,6 @@ for prize in prizes:
   
 print()
 print(f"Your total prize is ${total}")
+
+print("\n-----------END---------------\n")
   
